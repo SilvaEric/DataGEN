@@ -26,7 +26,7 @@ namespace GeradorDadosAPI.Models
                 { "Country", new NameGenerator() },
                 { "Height", new NameGenerator() },
                 { "Weight", new NameGenerator() },
-                { "BloodType", new NameGenerator() },
+                { "BloodType", new NameGenerator() }
             };
         public Guid? Id { get; set; } = new Guid();
         public string? Name { get; set; }
@@ -49,7 +49,6 @@ namespace GeradorDadosAPI.Models
         public float? Weight { get; set; }
         public string? BloodType { get; set; }
 
-        public PersonDataBase() { }
         public virtual void GeneratePerson(CustomizableSelections selections)
         {
             foreach(var selection in selections.SelectedDatas)

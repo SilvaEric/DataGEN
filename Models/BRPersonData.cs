@@ -16,10 +16,8 @@ namespace GeradorDadosAPI.Models
             {"PIS", new PISGenerator() },
             {"TituloEleitor", new VoterCardGenerator() },
             {"CreditCard", new CreditCardGenerator() },
-            {"CNPJ", new CNPJGenerator() },
-
+            {"CNPJ", new CNPJGenerator() }
         };
-
         public BankAccount? Account { get; set; }
         public int? RG { get; set; }
         public int? CNH { get; set; }
@@ -31,7 +29,6 @@ namespace GeradorDadosAPI.Models
         public int? CNPJ { get; set; }
         public CreditCard? PersonalCreditCard { get; set; }
         public int? CPF { get; set; }
-
 
         public override void GeneratePerson(CustomizableSelections selections)
         {
