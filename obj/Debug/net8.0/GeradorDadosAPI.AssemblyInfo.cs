@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeradorDadosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecff733a7e02af3908e88ce6297af0762b1269d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeradorDadosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeradorDadosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

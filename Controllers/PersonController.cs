@@ -1,18 +1,17 @@
 ﻿using GeradorDadosAPI.Enums;
 using GeradorDadosAPI.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
 
 namespace GeradorDadosAPI.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class PersonController : ControllerBase
     {
         [HttpPost]
-        public Task<ActionResult<PersonDataBase>> PostSelections(ERegion region, List<string> selections, int quantity)
+        public IActionResult PostSelections(CustomizableSelections customizableSelections)
         {
-            var _customizableSelections = new CustomizableSelections(region, selections, quantity);
-
-
+            return Ok(customizableSelections);
         }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class UKPersonData : PersonDataBase
     {
-        public override UKPersonData GeneratePerson(CustomizableSelections Selections)
+        public override UKPersonData GeneratePerson(this PersonDataBase person, CustomizableSelections Selections)
         {
             throw new NotImplementedException();
         }

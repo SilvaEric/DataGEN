@@ -2,11 +2,11 @@
 
 namespace GeradorDadosAPI.ContextData
 {
-    public class NamesData
+    public class NamesDataBase
     {
         public Dictionary<ERegion, List<string>> DictionaryRegionsNames { get; set; } = new Dictionary<ERegion, List<string>>();
 
-        public NamesData()
+        public NamesDataBase()
         {
             DictionaryRegionsNames = new Dictionary<ERegion, List<string>>() 
             {
