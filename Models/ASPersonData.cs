@@ -4,7 +4,8 @@
     {
         public override PersonDataBase GeneratePerson(CustomizableSelections Selections)
         {
-            throw new NotImplementedException();
+            base.GeneratePerson(Selections);
+            return this;
         }
     }
 }

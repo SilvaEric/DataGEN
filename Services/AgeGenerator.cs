@@ -11,7 +11,7 @@ namespace GeradorDadosAPI.Services
             DateOnly endDate = new DateOnly(today.Year - 18, today.Month, today.Day);
             var random = new Random();
             
-            int range = startDate.DayNumber - endDate.DayNumber;
+            int range = endDate.DayNumber - startDate.DayNumber;
 
             int randomDays = random.Next(range);
 

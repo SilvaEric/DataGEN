@@ -9,12 +9,12 @@ namespace GeradorDadosAPI.Models
         private readonly Dictionary<string, IGenerator> Generators = new()
             {
                 { "Name", new NameGenerator() },
-                { "Age", new NameGenerator() },
-                { "NascDate", new NameGenerator() },
-                { "Gender", new NameGenerator() },
+                { "Age", new AgeGenerator() },
+                { "NascDate", new AgeGenerator() },
+                { "Gender", new GenderGenerator() },
                 { "Mother", new NameGenerator() },
                 { "Father", new NameGenerator() },
-                { "Email", new NameGenerator() },
+                { "Email", new EmailGenerator() },
                 { "Password", new NameGenerator() },
                 { "Phone", new NameGenerator() },
                 { "ZipCode", new NameGenerator() },
@@ -49,13 +49,14 @@ namespace GeradorDadosAPI.Models
         public float? Weight { get; set; }
         public string? BloodType { get; set; }
 
-        public virtual void GeneratePerson(CustomizableSelections selections)
+        public virtual PersonDataBase GeneratePerson(CustomizableSelections selections)
         {
             foreach(var selection in selections.SelectedDatas)
             {
                 if (Generators.TryGetValue(selection, out var generator))
                     generator.Generate(selections, this);
             }
+            return this;
         }
     }
 }

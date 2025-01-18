@@ -20,23 +20,14 @@ namespace GeradorDadosAPI.Services
 
         private (string FirstName, string LastName) GetNameParts(PersonDataBase person, CustomizableSelections selections, Random random)
         {
-            if (!string.IsNullOrWhiteSpace(person.Name))
+            if (string.IsNullOrWhiteSpace(person.Name))
             {
-                var parts = person.Name.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
-                if (parts.Length >= 2)
-                {
-                    return (parts[0], parts[1]);
-                }
+                new NameGenerator().Generate(selections, person);
             }
-
-            var listFirstNames = new NamesDataBase().DictionaryRegionsNames[selections.Region];
-            var listLastNames = new SecondNamesDataBase().DictionaryRegionsSecondNames[selections.Region];
-
-            string firstName = listFirstNames[random.Next(listFirstNames.Count)];
-            string lastName = listLastNames[random.Next(listLastNames.Count)];
-
-            return (firstName, lastName);
+            
+            var parts = person.Name.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            
+            return (parts[0], parts[1]);
         }
     }
 }

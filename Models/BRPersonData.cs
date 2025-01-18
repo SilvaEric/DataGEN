@@ -8,7 +8,7 @@ namespace GeradorDadosAPI.Models
         private readonly Dictionary<string , IGenerator> BrGenerators = new()
         {
             {"CPF", new CPFGenerator() },
-            {"RG", new RGGenerator() },
+            /*{"RG", new RGGenerator() },
             {"CNH", new CNHGenerator() },
             {"CertidãoNasc", new BirthCertificateGenerator() },
             {"CertidãoCas", new MarriageCertificateGenerator() },
@@ -16,7 +16,7 @@ namespace GeradorDadosAPI.Models
             {"PIS", new PISGenerator() },
             {"TituloEleitor", new VoterCardGenerator() },
             {"CreditCard", new CreditCardGenerator() },
-            {"CNPJ", new CNPJGenerator() }
+            {"CNPJ", new CNPJGenerator() }*/
         };
         public BankAccount? Account { get; set; }
         public int? RG { get; set; }
@@ -30,7 +30,7 @@ namespace GeradorDadosAPI.Models
         public CreditCard? PersonalCreditCard { get; set; }
         public int? CPF { get; set; }
 
-        public override void GeneratePerson(CustomizableSelections selections)
+        public override BRPersonData GeneratePerson(CustomizableSelections selections)
         {
             base.GeneratePerson(selections);
 
@@ -39,6 +39,7 @@ namespace GeradorDadosAPI.Models
                 if (BrGenerators.TryGetValue(selection, out var generator))
                     generator.Generate(selections, this);
             }
+            return this;
         }
     }
 }

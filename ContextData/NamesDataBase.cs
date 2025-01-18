@@ -4,29 +4,79 @@ namespace GeradorDadosAPI.ContextData
 {
     public class NamesDataBase
     {
-        public Dictionary<ERegion, List<string>> DictionaryRegionsNames { get; set; } = new Dictionary<ERegion, List<string>>();
+        public Dictionary<ERegion, Dictionary<string, List<string>>> DictionaryRegionsNames { get; set; } = new Dictionary<ERegion, Dictionary<string, List<string>>>();
 
         public NamesDataBase()
         {
-            DictionaryRegionsNames = new Dictionary<ERegion, List<string>>() 
+            DictionaryRegionsNames = new Dictionary<ERegion, Dictionary<string, List<string>>>
             {
-                { ERegion.BR, new List<string> { "Ana", "Maria", "João", "Pedro", "Carlos", "Francisco", "José", "Lucas", "Gabriel", 
-                    "Mariana", "Felipe", "Rafael", "Beatriz", "Vitória", "Luiza", "Julia", "Camila", "Larissa", "Gabriela", "Matheus", "Laura" } },
+                {
+                    ERegion.BR, new Dictionary<string, List<string>>
+                    {
+                        { "Male", new List<string> 
+                            { 
+                                "João", "Pedro", "Carlos", "Francisco", "José", "Lucas", "Gabriel", "Matheus", "Felipe", "Rafael" 
+                            } 
+                        },
 
-                { ERegion.UK, new List<string> { "Emma", "Olivia", "Ava", "Isabella", "Sophia", "Mia", "Amelia", "Harper", "Evelyn", "Abigail", 
-                    "Ella", "Scarlett", "Grace", "Lily", "Aria", "Chloe", "Isla", "Zoey", "Nora", "Mila", "Emma", "Mia", "Hannah", "Anna", "Lina", 
-                    "Sophia", "Lea", "Marie", "Mila", "Lena", "Clara", "Amelie", "Luisa", "Charlotte", "Emily", "Sara", "Sofia", "Johanna", "Lisa", 
-                    "Kim", "Emma", "Léa", "Chloé", "Lola", "Inès", "Manon", "Camille", "Alice", "Jade", "Lou", "Julie", "Lucie", "Sarah", "Lina", 
-                    "Marie", "Zoe", "Clara", "Anaïs", "Eva", "Mélanie" } },
+                        { "Female", new List<string> 
+                            { 
+                                "Ana", "Maria", "Mariana", "Beatriz", "Vitória", "Luiza", "Julia", "Camila", "Larissa", "Gabriela", "Laura" 
+                            } 
+                        }
+                    }
+                },
 
-                { ERegion.US, new List<string> { "James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph", "Charles", 
-                    "Thomas", "Christopher", "Daniel", "Matthew", "Anthony", "Mark", "Donald", "Steven", "Paul", "Andrew", "Joshua" } },
+                {
+                    ERegion.UK, new Dictionary<string, List<string>>
+                    {
+                        { "Male", new List<string> 
+                            { 
+                                "James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph", "Charles", "Thomas" 
+                            } 
+                        },
 
-                { ERegion.AS, new List<string> { "Li", "Wang", "Zhang", "Liu", "Chen", "Yang", "Huang", "Zhao", "Wu", "Xu", "Sun", "Ma", "Zhou", 
-                    "Huo", "Guo", "Lin", "Luo", "He", "Liang", "Tang", "Aarav", "Vivaan", "Aditya", "Sai", "Ishaan", "Arjun", "Vihaan", "Reyansh", 
-                    "Ayaan", "Krishna", "Rohan", "Om", "Aryan", "Kabir", "Mohan", "Shaurya", "Yash", "Abhinav", "Kartik", "Raj", "Ren", "Haruto", 
-                    "Yuto", "Sota", "Daiki", "Yuki", "Kaito", "Sora", "Haruki", "Riku", "Takuya", "Sho", "Itsuki", "Kenta", "Shunya", "Takumi", 
-                    "Ryusei", "Satoshi", "Shuto", "Keita" } }
+                        { "Female", new List<string> 
+                            { 
+                                "Emma", "Olivia", "Ava", "Isabella", "Sophia", "Amelia", "Grace", "Chloe", "Lily", "Evelyn" 
+                            } 
+                        }
+                    }
+                },
+
+                {
+                    ERegion.US, new Dictionary<string, List<string>>
+                    {
+                        { "Male", new List<string> 
+                            { 
+                                "Christopher", "Matthew", "Anthony", "Mark", "Donald", "Steven", "Paul", "Andrew", "Joshua", "Daniel" 
+                            } 
+                        },
+
+                        { "Female", new List<string> 
+                            { 
+                                "Mary", "Patricia", "Jennifer", "Linda", "Elizabeth", "Barbara", "Susan", "Jessica", "Sarah", "Karen" 
+                            } 
+                        }
+                    }
+                },
+
+                {
+                    ERegion.AS, new Dictionary<string, List<string>>
+                    {
+                        { "Male", new List<string> 
+                            { 
+                                "Li", "Wang", "Zhang", "Liu", "Chen", "Yang", "Haruto", "Yuto", "Sota", "Daiki", "Ryusei" 
+                            } 
+                        },
+                        
+                        { "Female", new List<string> 
+                            { 
+                                "Aarav", "Vivaan", "Aditya", "Sai", "Ishaan", "Ren", "Mohan", "Shaurya", "Yash", "Kartik" 
+                            } 
+                        }
+                    }
+                }
             };
         }
     }

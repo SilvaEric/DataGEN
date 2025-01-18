@@ -8,7 +8,10 @@ namespace GeradorDadosAPI.Services
     {
         public void Generate(CustomizableSelections selections, PersonDataBase person)
         {
-            var names = new NamesDataBase().DictionaryRegionsNames[selections.Region];
+            if (person.Gender == null)
+                new GenderGenerator().Generate(selections, person);
+
+            var names = new NamesDataBase().DictionaryRegionsNames[selections.Region][person.Gender];
             var secondNames = new SecondNamesDataBase().DictionaryRegionsSecondNames[selections.Region];
 
             var random = new Random();
