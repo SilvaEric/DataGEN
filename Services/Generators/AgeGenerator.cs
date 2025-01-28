@@ -5,7 +5,7 @@ namespace GeradorDadosAPI.Services.Generators
 {
     public class AgeGenerator : IAgeGenerator
     {
-        private readonly DateOnly today = DateOnly.FromDateTime(DateTime.UtcNow);
+        private readonly DateOnly today = DateOnly.FromDateTime(DateTime.Now);
         public DateOnly GenerateBirthDate()
         {
             DateOnly startDate = new DateOnly(today.Year - 80, 1, 1);
