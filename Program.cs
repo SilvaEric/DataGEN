@@ -11,11 +11,14 @@ builder.Services.AddControllers()
     });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddScoped<IRegisterService, RegisterService>();
 builder.Services.AddScoped<INameGenerator, NameGenerator>();
 builder.Services.AddScoped<IAgeGenerator, AgeGenerator>();
 builder.Services.AddScoped<IGenderGenerator, GenderGenerator>();
 builder.Services.AddScoped<IEmailGenerator, EmailGenerator>();
+builder.Services.AddScoped<IPasswordGenerator, PasswordGenerator>();
+
 var app = builder.Build();
 
 app.UseSwagger();

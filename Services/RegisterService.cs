@@ -11,13 +11,15 @@ namespace GeradorDadosAPI.Services
         private readonly IAgeGenerator _ageGenerator;
         private readonly IGenderGenerator _genderGenerator;
         private readonly IEmailGenerator _emailGenerator;
+        private readonly IPasswordGenerator _passwordGenerator;
 
-        public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, IEmailGenerator emailGenerator)
+        public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, IEmailGenerator emailGenerator, IPasswordGenerator passwordGenerator)
         {
             _nameGenerator = nameGenerator;
             _ageGenerator = ageGenerator;
             _genderGenerator = genderGenerator;
             _emailGenerator = emailGenerator;
+            _passwordGenerator = passwordGenerator;
         }   
 
         public void Register(PersonBase person, CustomizableSelections customizableSelections)
@@ -75,9 +77,11 @@ namespace GeradorDadosAPI.Services
                     case "Mother":
                         person.Mother = _nameGenerator.Generate(EGender.FEMALE,customizableSelections.Region);
                         break;
+
+                    case "Password":
+                        person.Password = _passwordGenerator.Generate();
+                        break;
                 }
-
-
             }
         }
     }
