@@ -1,10 +1,18 @@
-﻿namespace GeradorDadosAPI.Models
+﻿using GeradorDadosAPI.Services;
+
+namespace GeradorDadosAPI.Models
 {
-    public class USPersonData : PersonDataBase
+    public class USPersonData : PersonBase
     {
-        public override PersonDataBase GeneratePerson(CustomizableSelections selections)
+        private readonly IRegisterService _registerService;
+        public USPersonData(IRegisterService registerService)
         {
-            base.GeneratePerson(selections);
+            _registerService = registerService;
+        }
+
+        public override PersonBase GeneratePerson(CustomizableSelections selections)
+        {
+            _registerService.Register(this, selections);
             return this;
         }
     }
