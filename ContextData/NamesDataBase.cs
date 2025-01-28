@@ -4,22 +4,22 @@ namespace GeradorDadosAPI.ContextData
 {
     public class NamesDataBase
     {
-        public Dictionary<ERegion, Dictionary<string, List<string>>> DictionaryRegionsNames { get; set; } = new Dictionary<ERegion, Dictionary<string, List<string>>>();
+        public Dictionary<ERegion, Dictionary<EGender, List<string>>> DictionaryRegionsNames { get; set; } = new Dictionary<ERegion, Dictionary<EGender, List<string>>>();
 
         public NamesDataBase()
         {
-            DictionaryRegionsNames = new Dictionary<ERegion, Dictionary<string, List<string>>>
+            DictionaryRegionsNames = new Dictionary<ERegion, Dictionary<EGender, List<string>>>
             {
                 {
-                    ERegion.BR, new Dictionary<string, List<string>>
+                    ERegion.BR, new Dictionary<EGender, List<string>>
                     {
-                        { "Male", new List<string> 
+                        { EGender.MALE, new List<string> 
                             { 
                                 "João", "Pedro", "Carlos", "Francisco", "José", "Lucas", "Gabriel", "Matheus", "Felipe", "Rafael" 
                             } 
                         },
 
-                        { "Female", new List<string> 
+                        { EGender.FEMALE, new List<string> 
                             { 
                                 "Ana", "Maria", "Mariana", "Beatriz", "Vitória", "Luiza", "Julia", "Camila", "Larissa", "Gabriela", "Laura" 
                             } 
@@ -28,15 +28,15 @@ namespace GeradorDadosAPI.ContextData
                 },
 
                 {
-                    ERegion.UK, new Dictionary<string, List<string>>
+                    ERegion.UK, new Dictionary<EGender, List<string>>
                     {
-                        { "Male", new List<string> 
+                        { EGender.MALE, new List<string> 
                             { 
                                 "James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph", "Charles", "Thomas" 
                             } 
                         },
 
-                        { "Female", new List<string> 
+                        { EGender.FEMALE, new List<string> 
                             { 
                                 "Emma", "Olivia", "Ava", "Isabella", "Sophia", "Amelia", "Grace", "Chloe", "Lily", "Evelyn" 
                             } 
@@ -45,15 +45,15 @@ namespace GeradorDadosAPI.ContextData
                 },
 
                 {
-                    ERegion.US, new Dictionary<string, List<string>>
+                    ERegion.US, new Dictionary<EGender, List<string>>
                     {
-                        { "Male", new List<string> 
+                        { EGender.MALE, new List<string> 
                             { 
                                 "Christopher", "Matthew", "Anthony", "Mark", "Donald", "Steven", "Paul", "Andrew", "Joshua", "Daniel" 
                             } 
                         },
 
-                        { "Female", new List<string> 
+                        { EGender.FEMALE, new List<string> 
                             { 
                                 "Mary", "Patricia", "Jennifer", "Linda", "Elizabeth", "Barbara", "Susan", "Jessica", "Sarah", "Karen" 
                             } 
@@ -62,15 +62,15 @@ namespace GeradorDadosAPI.ContextData
                 },
 
                 {
-                    ERegion.AS, new Dictionary<string, List<string>>
+                    ERegion.AS, new Dictionary<EGender, List<string>>
                     {
-                        { "Male", new List<string> 
+                        { EGender.MALE, new List<string> 
                             { 
                                 "Li", "Wang", "Zhang", "Liu", "Chen", "Yang", "Haruto", "Yuto", "Sota", "Daiki", "Ryusei" 
                             } 
                         },
                         
-                        { "Female", new List<string> 
+                        { EGender.FEMALE, new List<string> 
                             { 
                                 "Aarav", "Vivaan", "Aditya", "Sai", "Ishaan", "Ren", "Mohan", "Shaurya", "Yash", "Kartik" 
                             } 

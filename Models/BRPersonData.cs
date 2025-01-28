@@ -1,23 +1,13 @@
-﻿using GeradorDadosAPI.Services;
+﻿using GeradorDadosAPI.Enums;
+using GeradorDadosAPI.Services;
+using GeradorDadosAPI.Services.Generators;
 using System.ComponentModel.DataAnnotations;
 
 namespace GeradorDadosAPI.Models
 {
-    public class BRPersonData : PersonDataBase
+    public class BRPersonData : PersonBase
     {
-        private readonly Dictionary<string , IGenerator> BrGenerators = new()
-        {
-            {"CPF", new CPFGenerator() },
-            /*{"RG", new RGGenerator() },
-            {"CNH", new CNHGenerator() },
-            {"CertidãoNasc", new BirthCertificateGenerator() },
-            {"CertidãoCas", new MarriageCertificateGenerator() },
-            {"CertidãoObt", new DeathCertificateGenerator() },
-            {"PIS", new PISGenerator() },
-            {"TituloEleitor", new VoterCardGenerator() },
-            {"CreditCard", new CreditCardGenerator() },
-            {"CNPJ", new CNPJGenerator() }*/
-        };
+        private readonly IRegisterService _registerService;
         public BankAccount? Account { get; set; }
         public int? RG { get; set; }
         public int? CNH { get; set; }
@@ -30,15 +20,14 @@ namespace GeradorDadosAPI.Models
         public CreditCard? PersonalCreditCard { get; set; }
         public int? CPF { get; set; }
 
+        public BRPersonData(IRegisterService registerService) 
+        {
+            _registerService = registerService;
+        }
+
         public override BRPersonData GeneratePerson(CustomizableSelections selections)
         {
-            base.GeneratePerson(selections);
-
-            foreach (var selection in selections.SelectedDatas)
-            {
-                if (BrGenerators.TryGetValue(selection, out var generator))
-                    generator.Generate(selections, this);
-            }
+            _registerService.Register(this, selections);
             return this;
         }
     }

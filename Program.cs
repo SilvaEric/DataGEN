@@ -1,4 +1,6 @@
 using GeradorDadosAPI.Services;
+using GeradorDadosAPI.Services.Generators;
+using GeradorDadosAPI.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +11,11 @@ builder.Services.AddControllers()
     });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddScoped<IRegisterService, RegisterService>();
+builder.Services.AddScoped<INameGenerator, NameGenerator>();
+builder.Services.AddScoped<IAgeGenerator, AgeGenerator>();
+builder.Services.AddScoped<IGenderGenerator, GenderGenerator>();
+builder.Services.AddScoped<IEmailGenerator, EmailGenerator>();
 var app = builder.Build();
 
 app.UseSwagger();

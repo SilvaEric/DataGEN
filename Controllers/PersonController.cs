@@ -1,5 +1,6 @@
 ﻿using GeradorDadosAPI.Enums;
 using GeradorDadosAPI.Models;
+using GeradorDadosAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 
@@ -9,44 +10,63 @@ namespace GeradorDadosAPI.Controllers
     [Route("api/[controller]")]
     public class PersonController : ControllerBase
     {
+        private readonly IRegisterService _registerService;
+            
+        public PersonController(IRegisterService registerService)
+        {
+            _registerService = registerService;
+        }
+
         [HttpPost]
         public ActionResult GenerateDataBySelections(CustomizableSelections customizableSelections)
         {
-            if(customizableSelections == null || customizableSelections.Quantity <= 0)
-                return BadRequest("As seleções personalizadas ou quantidade inválidas.");
+            if(customizableSelections.SelectedDatas?.Any() != true || customizableSelections.Quantity <= 0 || customizableSelections.Age.HasValue && customizableSelections.Age <=0)
+                return BadRequest("As seleções são inválidas. para que a entrada de dados seja válida voce deve selecionar ao menos um tipo de dado, uma quantidade ou idade maior que 0");
 
-            Dictionary<string, PersonDataBase> persons = new Dictionary<string, PersonDataBase>();
+            List<PersonBase> persons = new List<PersonBase>();
 
             for (int i = 1; i <= customizableSelections.Quantity; i++)
             {
-                var personGenerator = CreatePersonGenerator(customizableSelections.Region);
-
-                if (personGenerator == null)
-                    return StatusCode(StatusCodes.Status501NotImplemented, "A região selecionada não é suportada");
-                
-                var person = personGenerator.GeneratePerson(customizableSelections);
-                
-                if (person == null)
+                try
                 {
-                    return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao gerar dados");
+                    var personGenerator = CreatePersonGenerator(customizableSelections.Region);
+
+                    var person = personGenerator.GeneratePerson(customizableSelections);
+
+                    if (person == null)
+                    {
+                        return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao gerar dados");
+                    }
+
+                    persons.Add(person);
                 }
-
-                persons.Add($"Person {i}", person);
+                catch (NotImplementedException)
+                {
+                    return StatusCode(StatusCodes.Status501NotImplemented, "A região selecionada não é suportada");
+                }
             }
-
             return Ok(persons);
         }
 
-        private PersonDataBase CreatePersonGenerator(ERegion region)
+        private PersonBase CreatePersonGenerator(ERegion region)
         {
-            return region switch
+            switch (region)
             {
-                ERegion.BR => new BRPersonData(),
-                ERegion.US => new USPersonData(),
-                ERegion.UK => new UKPersonData(),
-                ERegion.AS => new ASPersonData(),
-                _ => null
-            };
+                case ERegion.BR:
+                    return new BRPersonData(_registerService);
+
+                case ERegion.US:
+                    return new USPersonData(_registerService);
+
+                case ERegion.UK:
+                    return new UKPersonData(_registerService);
+
+                case ERegion.AS:
+                    return new ASPersonData(_registerService);
+
+                default:
+                    throw new NotImplementedException();
+            }
         }
     }
 }

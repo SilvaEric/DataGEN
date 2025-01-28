@@ -1,10 +1,10 @@
 ﻿using GeradorDadosAPI.Models;
 
-namespace GeradorDadosAPI.Services
+namespace GeradorDadosAPI.Services.Generators
 {
-    public class CPFGenerator : IGenerator
+    public class CPFGenerator
     {
-        public void Generate(CustomizableSelections selections, PersonDataBase person)
+        public void Generate(CustomizableSelections selections, PersonBase person)
         {
             //Lógica de Criação do CPF
         }
