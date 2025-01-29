@@ -1,7 +1,4 @@
-﻿using GeradorDadosAPI.Enums;
-using GeradorDadosAPI.Services;
-using GeradorDadosAPI.Services.Generators;
-using System.ComponentModel.DataAnnotations;
+﻿using GeradorDadosAPI.Services.Interfaces;
 
 namespace GeradorDadosAPI.Models
 {

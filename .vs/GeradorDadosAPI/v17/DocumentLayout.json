@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Dev\\GeradorDadosAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\customizableselections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\customizableselections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\personbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\personbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\uspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\uspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\brpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\brpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\phonenumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\phonenumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\namegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\namegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\iphonenumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\iphonenumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\iagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\iagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\iemailgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\iemailgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\igendergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,60 +55,28 @@
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\inamegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\iemailgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\iemailgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\interfaces\\iagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\interfaces\\iagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\namegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\namegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\gendergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\gendergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\agegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\agegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\emaildatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\emaildatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\personbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\personbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\brpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\brpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\customizableselections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\customizableselections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\aspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\aspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\namesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\namesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\enums\\estatesbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:enums\\estatesbr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\enums\\egender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:enums\\egender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\charlistsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\charlistsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\agegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\agegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\cpfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,24 +87,44 @@
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\emailgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\uspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\uspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\gendergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\gendergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\ukpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\ukpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\generators\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\generators\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\secondnamesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\secondnamesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\emaildatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\emaildatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\phonenumberdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\phonenumberdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\enums\\estatesus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:enums\\estatesus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\secondnamesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\secondnamesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\enums\\eregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:enums\\eregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\contextdata\\namesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:contextdata\\namesdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ericg\\AppData\\Local\\SourceServer\\7c05128fc3084adca43acfc6ad0c2f76818ff3e7796e07f7fc9cfa430664eb2c\\Models\\USPersonData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -129,8 +141,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "USPersonData.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
+              "RelativeDocumentMoniker": "Models\\USPersonData.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
+              "RelativeToolTip": "Models\\USPersonData.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:03:38.977Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -145,46 +170,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PasswordGenerator.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\PasswordGenerator.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\PasswordGenerator.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\PasswordGenerator.cs",
-              "RelativeToolTip": "Services\\Interfaces\\PasswordGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "DocumentIndex": 4,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\RegisterService.cs",
+              "RelativeDocumentMoniker": "Services\\RegisterService.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\RegisterService.cs",
+              "RelativeToolTip": "Services\\RegisterService.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAIAwwGcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T11:53:21.633Z",
+              "WhenOpened": "2025-01-18T17:11:22.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PasswordGenerator.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\PasswordGenerator.cs",
-              "RelativeDocumentMoniker": "Services\\Generators\\PasswordGenerator.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\PasswordGenerator.cs*",
-              "RelativeToolTip": "Services\\Generators\\PasswordGenerator.cs*",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA2wBkAAAAuAAAA",
+              "DocumentIndex": 1,
+              "Title": "PersonBase.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\PersonBase.cs",
+              "RelativeDocumentMoniker": "Models\\PersonBase.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\PersonBase.cs",
+              "RelativeToolTip": "Models\\PersonBase.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T02:19:16.01Z",
+              "WhenOpened": "2025-01-16T17:37:52.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGenderGenerator.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IGenderGenerator.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IGenderGenerator.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IGenderGenerator.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IGenderGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:38:34.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "INameGenerator.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\INameGenerator.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\INameGenerator.cs",
@@ -192,51 +204,73 @@
               "RelativeToolTip": "Services\\Interfaces\\INameGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:36:16.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:36:16.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
+              "DocumentIndex": 6,
+              "Title": "NameGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\NameGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Generators\\NameGenerator.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\NameGenerator.cs",
+              "RelativeToolTip": "Services\\Generators\\NameGenerator.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T12:22:31.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T18:10:17.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "IRegisterService.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\IRegisterService.cs",
-              "RelativeDocumentMoniker": "Services\\IRegisterService.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\IRegisterService.cs",
-              "RelativeToolTip": "Services\\IRegisterService.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IRegisterService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRegisterService.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IRegisterService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRegisterService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T17:24:23.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T17:24:23.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterService.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\RegisterService.cs",
-              "RelativeDocumentMoniker": "Services\\RegisterService.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\RegisterService.cs",
-              "RelativeToolTip": "Services\\RegisterService.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAYwFQAAAAMAAAA",
+              "DocumentIndex": 0,
+              "Title": "CustomizableSelections.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\CustomizableSelections.cs",
+              "RelativeDocumentMoniker": "Models\\CustomizableSelections.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\CustomizableSelections.cs",
+              "RelativeToolTip": "Models\\CustomizableSelections.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T17:11:22.564Z",
+              "WhenOpened": "2025-01-16T18:23:28.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "IGenderGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IGenderGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IGenderGenerator.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IGenderGenerator.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IGenderGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T15:38:34.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BRPersonData.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\BRPersonData.cs",
+              "RelativeDocumentMoniker": "Models\\BRPersonData.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\BRPersonData.cs",
+              "RelativeToolTip": "Models\\BRPersonData.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAywAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:11:35.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IEmailGenerator.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IEmailGenerator.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailGenerator.cs",
@@ -244,12 +278,23 @@
               "RelativeToolTip": "Services\\Interfaces\\IEmailGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:39:17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:39:17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "PhoneNumberGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\PhoneNumberGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Generators\\PhoneNumberGenerator.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\PhoneNumberGenerator.cs",
+              "RelativeToolTip": "Services\\Generators\\PhoneNumberGenerator.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T17:10:32.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IAgeGenerator.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IAgeGenerator.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAgeGenerator.cs",
@@ -257,135 +302,47 @@
               "RelativeToolTip": "Services\\Interfaces\\IAgeGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T15:40:30.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T15:40:30.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NameGenerator.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\NameGenerator.cs",
-              "RelativeDocumentMoniker": "Services\\Generators\\NameGenerator.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\NameGenerator.cs",
-              "RelativeToolTip": "Services\\Generators\\NameGenerator.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBEAAAAJAAAA",
+              "DocumentIndex": 7,
+              "Title": "IPhoneNumberGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IPhoneNumberGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPhoneNumberGenerator.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Interfaces\\IPhoneNumberGenerator.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPhoneNumberGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T18:10:17.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GenderGenerator.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\GenderGenerator.cs",
-              "RelativeDocumentMoniker": "Services\\Generators\\GenderGenerator.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\GenderGenerator.cs",
-              "RelativeToolTip": "Services\\Generators\\GenderGenerator.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAApwA0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T11:22:20.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AgeGenerator.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\AgeGenerator.cs",
-              "RelativeDocumentMoniker": "Services\\Generators\\AgeGenerator.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\AgeGenerator.cs",
-              "RelativeToolTip": "Services\\Generators\\AgeGenerator.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T18:57:37.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T17:49:09.342Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "PersonBase.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\PersonBase.cs",
-              "RelativeDocumentMoniker": "Models\\PersonBase.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\PersonBase.cs",
-              "RelativeToolTip": "Models\\PersonBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T17:37:52.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmailDataBase.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\EmailDataBase.cs",
-              "RelativeDocumentMoniker": "ContextData\\EmailDataBase.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\EmailDataBase.cs",
-              "RelativeToolTip": "ContextData\\EmailDataBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T20:38:49.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "PersonController.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "Controllers\\PersonController.cs",
               "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Controllers\\PersonController.cs",
               "RelativeToolTip": "Controllers\\PersonController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAD4vzAAAAAIAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T20:02:12.223Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EStatesBR.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Enums\\EStatesBR.cs",
+              "RelativeDocumentMoniker": "Enums\\EStatesBR.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Enums\\EStatesBR.cs",
+              "RelativeToolTip": "Enums\\EStatesBR.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:31:03.406Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "BRPersonData.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\BRPersonData.cs",
-              "RelativeDocumentMoniker": "Models\\BRPersonData.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\BRPersonData.cs",
-              "RelativeToolTip": "Models\\BRPersonData.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAIAwwB8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:11:35.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomizableSelections.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\CustomizableSelections.cs",
-              "RelativeDocumentMoniker": "Models\\CustomizableSelections.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\CustomizableSelections.cs",
-              "RelativeToolTip": "Models\\CustomizableSelections.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:23:28.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ASPersonData.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\ASPersonData.cs",
-              "RelativeDocumentMoniker": "Models\\ASPersonData.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\ASPersonData.cs",
-              "RelativeToolTip": "Models\\ASPersonData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:13:14.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NamesDataBase.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\NamesDataBase.cs",
-              "RelativeDocumentMoniker": "ContextData\\NamesDataBase.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\NamesDataBase.cs",
-              "RelativeToolTip": "ContextData\\NamesDataBase.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAlwA4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:31:07.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "EGender.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Enums\\EGender.cs",
               "RelativeDocumentMoniker": "Enums\\EGender.cs",
@@ -397,19 +354,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\BankAccount.cs",
-              "RelativeDocumentMoniker": "Models\\BankAccount.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\BankAccount.cs",
-              "RelativeToolTip": "Models\\BankAccount.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAMAAAAFAAAA",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T20:09:12.604Z"
+              "WhenOpened": "2025-01-18T12:22:31.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
+              "Title": "CharListsDataBase.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\CharListsDataBase.cs",
+              "RelativeDocumentMoniker": "ContextData\\CharListsDataBase.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\CharListsDataBase.cs",
+              "RelativeToolTip": "ContextData\\CharListsDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:07:40.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AgeGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\AgeGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Generators\\AgeGenerator.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\AgeGenerator.cs",
+              "RelativeToolTip": "Services\\Generators\\AgeGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:57:37.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "CPFGenerator.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\CPFGenerator.cs",
               "RelativeDocumentMoniker": "Services\\Generators\\CPFGenerator.cs",
@@ -421,51 +402,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "EmailGenerator.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\EmailGenerator.cs",
               "RelativeDocumentMoniker": "Services\\Generators\\EmailGenerator.cs",
               "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\EmailGenerator.cs",
               "RelativeToolTip": "Services\\Generators\\EmailGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T20:36:21.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UKPersonData.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\UKPersonData.cs",
-              "RelativeDocumentMoniker": "Models\\UKPersonData.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\UKPersonData.cs",
-              "RelativeToolTip": "Models\\UKPersonData.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA0AAAAYAAAA",
+              "DocumentIndex": 21,
+              "Title": "GenderGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\GenderGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Generators\\GenderGenerator.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\GenderGenerator.cs",
+              "RelativeToolTip": "Services\\Generators\\GenderGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:12:56.738Z"
+              "WhenOpened": "2025-01-18T11:22:20.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PasswordGenerator.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\PasswordGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\Generators\\PasswordGenerator.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Services\\Generators\\PasswordGenerator.cs",
+              "RelativeToolTip": "Services\\Generators\\PasswordGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T17:12:06.586Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "USPersonData.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
-              "RelativeDocumentMoniker": "Models\\USPersonData.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
-              "RelativeToolTip": "Models\\USPersonData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "EmailDataBase.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\EmailDataBase.cs",
+              "RelativeDocumentMoniker": "ContextData\\EmailDataBase.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\EmailDataBase.cs",
+              "RelativeToolTip": "ContextData\\EmailDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:12:03.706Z"
+              "WhenOpened": "2025-01-17T20:38:49.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PhoneNumberDataBase.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\PhoneNumberDataBase.cs",
+              "RelativeDocumentMoniker": "ContextData\\PhoneNumberDataBase.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\PhoneNumberDataBase.cs",
+              "RelativeToolTip": "ContextData\\PhoneNumberDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:14:16.411Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "SecondNamesDataBase.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\SecondNamesDataBase.cs",
-              "RelativeDocumentMoniker": "ContextData\\SecondNamesDataBase.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\SecondNamesDataBase.cs",
-              "RelativeToolTip": "ContextData\\SecondNamesDataBase.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA1wBUAAAAWAAAA",
+              "Title": "EStatesUS.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Enums\\EStatesUS.cs",
+              "RelativeDocumentMoniker": "Enums\\EStatesUS.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Enums\\EStatesUS.cs",
+              "RelativeToolTip": "Enums\\EStatesUS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T20:46:48.332Z"
+              "WhenOpened": "2025-01-29T16:33:16.75Z"
             },
             {
               "$type": "Document",
@@ -482,18 +487,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "SecondNamesDataBase.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\SecondNamesDataBase.cs",
+              "RelativeDocumentMoniker": "ContextData\\SecondNamesDataBase.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\SecondNamesDataBase.cs",
+              "RelativeToolTip": "ContextData\\SecondNamesDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:46:48.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Models\\BankAccount.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\BankAccount.cs",
+              "RelativeToolTip": "Models\\BankAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:09:12.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ERegion.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Enums\\ERegion.cs",
               "RelativeDocumentMoniker": "Enums\\ERegion.cs",
               "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Enums\\ERegion.cs",
               "RelativeToolTip": "Enums\\ERegion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T19:48:45.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
+              "Title": "NamesDataBase.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\ContextData\\NamesDataBase.cs",
+              "RelativeDocumentMoniker": "ContextData\\NamesDataBase.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\ContextData\\NamesDataBase.cs",
+              "RelativeToolTip": "ContextData\\NamesDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:31:07.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "USPersonData.cs",
               "DocumentMoniker": "C:\\Users\\ericg\\AppData\\Local\\SourceServer\\7c05128fc3084adca43acfc6ad0c2f76818ff3e7796e07f7fc9cfa430664eb2c\\Models\\USPersonData.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\ericg\\AppData\\Local\\SourceServer\\7c05128fc3084adca43acfc6ad0c2f76818ff3e7796e07f7fc9cfa430664eb2c\\Models\\USPersonData.cs",
@@ -506,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "GeradorDadosAPI.csproj",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\GeradorDadosAPI.csproj",
               "RelativeDocumentMoniker": "GeradorDadosAPI.csproj",

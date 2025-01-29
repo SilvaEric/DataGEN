@@ -1,4 +1,5 @@
-﻿using GeradorDadosAPI.Services;
+﻿using GeradorDadosAPI.Enums;
+using GeradorDadosAPI.Services.Interfaces;
 
 namespace GeradorDadosAPI.Models
 {
@@ -10,8 +11,8 @@ namespace GeradorDadosAPI.Models
             _registerService = registerService;
         }
 
-        public override PersonBase GeneratePerson(CustomizableSelections selections)
-        {
+        public override USPersonData GeneratePerson(CustomizableSelections selections)
+        { 
             _registerService.Register(this, selections);
             return this;
         }

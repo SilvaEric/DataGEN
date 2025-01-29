@@ -15,13 +15,13 @@ namespace GeradorDadosAPI.Models
         public string? Father { get; set; }
         public string? Email { get; set; }
         public string? Password { get; set; }
-        public int? Phone { get; set; }
+        public string? Phone { get; set; }
         public int? ZipCode { get; set; }
         public string? Adress { get; set; }
         public int? Number { get; set; }
         public string? Neighborhood { get; set; }
         public string? City { get; set; }
-        public string? State { get; set; }
+        public string State { get; set; }
         public string? Country { get; set; }
         public float? Height { get; set; }
         public float? Weight { get; set; }

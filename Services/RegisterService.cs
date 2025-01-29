@@ -2,6 +2,7 @@
 using GeradorDadosAPI.Models;
 using GeradorDadosAPI.Services.Generators;
 using GeradorDadosAPI.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GeradorDadosAPI.Services
 {
@@ -12,14 +13,16 @@ namespace GeradorDadosAPI.Services
         private readonly IGenderGenerator _genderGenerator;
         private readonly IEmailGenerator _emailGenerator;
         private readonly IPasswordGenerator _passwordGenerator;
+        private readonly IPhoneNumberGenerator _phoneNumberGenerator;
 
-        public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, IEmailGenerator emailGenerator, IPasswordGenerator passwordGenerator)
+        public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, IEmailGenerator emailGenerator, IPasswordGenerator passwordGenerator, IPhoneNumberGenerator phoneNumberGenerator)
         {
             _nameGenerator = nameGenerator;
             _ageGenerator = ageGenerator;
             _genderGenerator = genderGenerator;
             _emailGenerator = emailGenerator;
             _passwordGenerator = passwordGenerator;
+            _phoneNumberGenerator = phoneNumberGenerator;
         }   
 
         public void Register(PersonBase person, CustomizableSelections customizableSelections)
@@ -75,11 +78,37 @@ namespace GeradorDadosAPI.Services
                         break;
 
                     case "Mother":
-                        person.Mother = _nameGenerator.Generate(EGender.FEMALE,customizableSelections.Region);
+                        person.Mother = _nameGenerator.Generate(EGender.FEMALE, customizableSelections.Region);
                         break;
 
                     case "Password":
                         person.Password = _passwordGenerator.Generate();
+                        break;
+
+                    case "Phone":
+                        if (customizableSelections.StatesBR.HasValue)
+                        {
+                            person.Phone = _phoneNumberGenerator.GenerateBRPhone(customizableSelections.Region, customizableSelections.StatesBR.Value);
+                            break;
+                        }
+
+                        if (customizableSelections.StatesUS.HasValue)
+                        {
+                            person.Phone = _phoneNumberGenerator.GenerateUSPhone(customizableSelections.Region, customizableSelections.StatesUS.Value);
+                            break;
+                        }
+
+                        var random = new Random();
+
+                        if(customizableSelections.Region == ERegion.BR)
+                        {
+                            var listStatesBR = Enum.GetValues(typeof(EStatesBR)).Cast<EStatesBR>().ToList();
+                            person.Phone = _phoneNumberGenerator.GenerateBRPhone(customizableSelections.Region, listStatesBR[random.Next(listStatesBR.Count)]);
+                            break;
+                        }
+
+                        var listStatesUS = Enum.GetValues(typeof(EStatesUS)).Cast<EStatesUS>().ToList();
+                        person.Phone = _phoneNumberGenerator.GenerateUSPhone(customizableSelections.Region, listStatesUS[random.Next(listStatesUS.Count)]);
                         break;
                 }
             }
