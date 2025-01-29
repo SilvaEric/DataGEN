@@ -144,19 +144,6 @@
           "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "USPersonData.cs",
-              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
-              "RelativeDocumentMoniker": "Models\\USPersonData.cs",
-              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
-              "RelativeToolTip": "Models\\USPersonData.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T20:03:38.977Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
@@ -170,6 +157,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "USPersonData.cs",
+              "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
+              "RelativeDocumentMoniker": "Models\\USPersonData.cs",
+              "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\USPersonData.cs",
+              "RelativeToolTip": "Models\\USPersonData.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:03:38.977Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "RegisterService.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\RegisterService.cs",
@@ -178,8 +177,7 @@
               "RelativeToolTip": "Services\\RegisterService.cs",
               "ViewState": "AQIAAFAAAAAAAAAAAIAwwGcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T17:11:22.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T17:11:22.564Z"
             },
             {
               "$type": "Document",
@@ -191,8 +189,7 @@
               "RelativeToolTip": "Models\\PersonBase.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T17:37:52.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T17:37:52.82Z"
             },
             {
               "$type": "Document",
@@ -238,7 +235,7 @@
               "RelativeDocumentMoniker": "Models\\CustomizableSelections.cs",
               "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Models\\CustomizableSelections.cs",
               "RelativeToolTip": "Models\\CustomizableSelections.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T18:23:28.001Z",
               "EditorCaption": ""
@@ -265,8 +262,7 @@
               "RelativeToolTip": "Models\\BRPersonData.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAywAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:11:35.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T20:11:35.303Z"
             },
             {
               "$type": "Document",
