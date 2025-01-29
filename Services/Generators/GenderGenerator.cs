@@ -5,7 +5,7 @@ using GeradorDadosAPI.Services.Interfaces;
 namespace GeradorDadosAPI.Services.Generators
 {
     public class GenderGenerator : IGenderGenerator
-    {
+    { 
         public EGender Generate()
         {
             Dictionary<int, EGender> genders = new Dictionary<int, EGender>()
