@@ -1,7 +1,7 @@
 ﻿using GeradorDadosAPI.Enums;
 using GeradorDadosAPI.Models;
 
-namespace GeradorDadosAPI.Services
+namespace GeradorDadosAPI.Services.Interfaces
 {
     public interface IRegisterService
     {

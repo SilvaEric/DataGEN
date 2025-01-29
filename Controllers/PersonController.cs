@@ -1,8 +1,7 @@
 ﻿using GeradorDadosAPI.Enums;
 using GeradorDadosAPI.Models;
-using GeradorDadosAPI.Services;
+using GeradorDadosAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
 
 namespace GeradorDadosAPI.Controllers
 {
@@ -20,8 +19,20 @@ namespace GeradorDadosAPI.Controllers
         [HttpPost]
         public ActionResult GenerateDataBySelections(CustomizableSelections customizableSelections)
         {
-            if(customizableSelections.SelectedDatas?.Any() != true || customizableSelections.Quantity <= 0 || customizableSelections.Age.HasValue && customizableSelections.Age <=0)
-                return BadRequest("As seleções são inválidas. para que a entrada de dados seja válida voce deve selecionar ao menos um tipo de dado, uma quantidade ou idade maior que 0");
+            string invalidSelections = "Seleção inválida.";
+            if (!customizableSelections.SelectedDatas.Any())
+                return BadRequest($"{invalidSelections} Para que a entrada de dados seja válida o parametro SelectedDatas deve conter ao menos um tipo de dado para ser retornado!");
+
+            if (customizableSelections.Quantity <= 0)
+                return BadRequest($"{invalidSelections} O parametro Quantity deve ser > 0.");
+
+            if(customizableSelections.Age.HasValue && customizableSelections.Age <= 0)
+                return BadRequest($"{invalidSelections} Quando informado o parametro Age deve ser > 0.");
+
+            if (customizableSelections.StatesBR.HasValue && customizableSelections.Region != ERegion.BR || customizableSelections.StatesUS.HasValue && customizableSelections.Region != ERegion.US)
+            {
+                return BadRequest($"{invalidSelections} O Estado selecionado não pertence a mesmo(a) Região/País selecionado(a).");
+            }
 
             List<PersonBase> persons = new List<PersonBase>();
 
@@ -57,12 +68,6 @@ namespace GeradorDadosAPI.Controllers
 
                 case ERegion.US:
                     return new USPersonData(_registerService);
-
-                case ERegion.UK:
-                    return new UKPersonData(_registerService);
-
-                case ERegion.AS:
-                    return new ASPersonData(_registerService);
 
                 default:
                     throw new NotImplementedException();
