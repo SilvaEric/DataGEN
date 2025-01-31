@@ -1,6 +1,6 @@
 ﻿namespace GeradorDadosAPI.Services.Generators
 {
-    public interface IPasswordGenerator
+    public interface IGenerateStringNoParams
     {
         public string Generate();
     }

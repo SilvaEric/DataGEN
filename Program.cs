@@ -18,13 +18,15 @@ builder.Services.AddScoped<SecondNamesDataBase>();
 builder.Services.AddScoped<NamesDataBase>();
 builder.Services.AddScoped<PhoneNumberDataBase>();
 builder.Services.AddScoped<CharListsDataBase>();
+builder.Services.AddScoped<BloodTypeDataBase>();
 
 builder.Services.AddScoped<IRegisterService, RegisterService>();
 builder.Services.AddScoped<INameGenerator, NameGenerator>();
 builder.Services.AddScoped<IAgeGenerator, AgeGenerator>();
 builder.Services.AddScoped<IGenderGenerator, GenderGenerator>();
 builder.Services.AddScoped<IEmailGenerator, EmailGenerator>();
-builder.Services.AddScoped<IPasswordGenerator, PasswordGenerator>();
+builder.Services.AddKeyedScoped<IGenerateStringNoParams, PasswordGenerator>("password");
+builder.Services.AddKeyedScoped<IGenerateStringNoParams, BloodTypeGenerator>("bloodtype");
 builder.Services.AddScoped<IPhoneNumberGenerator, PhoneNumberGenerator>();
 
 var app = builder.Build();

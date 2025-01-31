@@ -361,3 +361,37 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+* .swp
+* . * ~
+projeto.lock.json
+.DS_Loja
+* .pyc
+
+# Código do Visual Studio
+.vscode
+
+# Arquivos específicos do usuário
+* .suo
+* .usuário
+* .userosscache
+* .sln.docstates
+
+# Resultados da construção
+[ Dd ] ebug /
+[ Dd ] ebugPúblico /
+[ Rr ] liberar /
+[ Rr ] libera /
+x64 /
+x86 /
+construir /
+prédio /
+[ Bb ] em /
+[ Oo ] bj /
+msbuild.log
+msbuild.erro
+msbuild.wrn
+
+# Visual Studio 2015
+.vs /

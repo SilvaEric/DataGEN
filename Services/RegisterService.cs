@@ -12,10 +12,13 @@ namespace GeradorDadosAPI.Services
         private readonly IAgeGenerator _ageGenerator;
         private readonly IGenderGenerator _genderGenerator;
         private readonly IEmailGenerator _emailGenerator;
-        private readonly IPasswordGenerator _passwordGenerator;
+        private readonly IGenerateStringNoParams _passwordGenerator;
         private readonly IPhoneNumberGenerator _phoneNumberGenerator;
+        private readonly IGenerateStringNoParams _bloodTypeGenerator;
 
-        public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, IEmailGenerator emailGenerator, IPasswordGenerator passwordGenerator, IPhoneNumberGenerator phoneNumberGenerator)
+        public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, 
+            IEmailGenerator emailGenerator,[FromKeyedServices("password")] IGenerateStringNoParams passwordGenerator, 
+            IPhoneNumberGenerator phoneNumberGenerator, [FromKeyedServices("bloodtype")] IGenerateStringNoParams bloodTypeGenerator)
         {
             _nameGenerator = nameGenerator;
             _ageGenerator = ageGenerator;
@@ -23,6 +26,7 @@ namespace GeradorDadosAPI.Services
             _emailGenerator = emailGenerator;
             _passwordGenerator = passwordGenerator;
             _phoneNumberGenerator = phoneNumberGenerator;
+            _bloodTypeGenerator = bloodTypeGenerator;
         }   
 
         public void Register(PersonBase person, CustomizableSelections customizableSelections)
@@ -109,6 +113,11 @@ namespace GeradorDadosAPI.Services
 
                         var listStatesUS = Enum.GetValues(typeof(EStatesUS)).Cast<EStatesUS>().ToList();
                         person.Phone = _phoneNumberGenerator.GenerateUSPhone(customizableSelections.Region, listStatesUS[random.Next(listStatesUS.Count)]);
+                        break;
+
+                    case "BloodType":
+
+                        person.BloodType = _bloodTypeGenerator.Generate();
                         break;
                 }
             }
