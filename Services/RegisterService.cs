@@ -12,13 +12,13 @@ namespace GeradorDadosAPI.Services
         private readonly IAgeGenerator _ageGenerator;
         private readonly IGenderGenerator _genderGenerator;
         private readonly IEmailGenerator _emailGenerator;
-        private readonly IGenerateStringNoParams _passwordGenerator;
+        private readonly IGenerateNoParams _passwordGenerator, _bloodTypeGenerator, _heightGenerator, _weightGenerator;
         private readonly IPhoneNumberGenerator _phoneNumberGenerator;
-        private readonly IGenerateStringNoParams _bloodTypeGenerator;
 
         public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, 
-            IEmailGenerator emailGenerator,[FromKeyedServices("password")] IGenerateStringNoParams passwordGenerator, 
-            IPhoneNumberGenerator phoneNumberGenerator, [FromKeyedServices("bloodtype")] IGenerateStringNoParams bloodTypeGenerator)
+            IEmailGenerator emailGenerator,[FromKeyedServices("password")] IGenerateNoParams passwordGenerator, 
+            IPhoneNumberGenerator phoneNumberGenerator, [FromKeyedServices("bloodtype")] IGenerateNoParams bloodTypeGenerator,
+            [FromKeyedServices("height")] IGenerateNoParams heightgenerator, [FromKeyedServices("weight")] IGenerateNoParams weightgenerator)
         {
             _nameGenerator = nameGenerator;
             _ageGenerator = ageGenerator;
@@ -27,6 +27,8 @@ namespace GeradorDadosAPI.Services
             _passwordGenerator = passwordGenerator;
             _phoneNumberGenerator = phoneNumberGenerator;
             _bloodTypeGenerator = bloodTypeGenerator;
+            _heightGenerator = heightgenerator;
+            _weightGenerator = weightgenerator;
         }   
 
         public void Register(PersonBase person, CustomizableSelections customizableSelections)
@@ -86,7 +88,7 @@ namespace GeradorDadosAPI.Services
                         break;
 
                     case "Password":
-                        person.Password = _passwordGenerator.Generate();
+                        person.Password = Convert.ToString(_passwordGenerator.Generate());
                         break;
 
                     case "Phone":
@@ -115,9 +117,17 @@ namespace GeradorDadosAPI.Services
                         person.Phone = _phoneNumberGenerator.GenerateUSPhone(customizableSelections.Region, listStatesUS[random.Next(listStatesUS.Count)]);
                         break;
 
+                    case "Weight":
+                        person.Weight = Convert.ToDouble(_weightGenerator.Generate());
+                        break;
+
+                    case "Height":
+                        person.Height = Convert.ToDouble(_heightGenerator.Generate());
+                        break;
+
                     case "BloodType":
 
-                        person.BloodType = _bloodTypeGenerator.Generate();
+                        person.BloodType = Convert.ToString(_bloodTypeGenerator.Generate());
                         break;
                 }
             }

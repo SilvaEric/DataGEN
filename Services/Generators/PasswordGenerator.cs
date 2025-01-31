@@ -2,7 +2,7 @@
 
 namespace GeradorDadosAPI.Services.Generators
 {
-    public class PasswordGenerator : IGenerateStringNoParams
+    public class PasswordGenerator : IGenerateNoParams
     {
         private readonly CharListsDataBase _charLists;
 
@@ -10,7 +10,7 @@ namespace GeradorDadosAPI.Services.Generators
         {
             _charLists = data;
         }
-        public string Generate()
+        public object Generate()
         {
             var random = new Random();
             int charQuantity = random.Next(12, 20);

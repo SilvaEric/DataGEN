@@ -2,7 +2,7 @@
 
 namespace GeradorDadosAPI.Services.Generators
 {
-    public class BloodTypeGenerator : IGenerateStringNoParams
+    public class BloodTypeGenerator : IGenerateNoParams
     {
         private readonly BloodTypeDataBase _bloodTypeData;
 
@@ -10,7 +10,7 @@ namespace GeradorDadosAPI.Services.Generators
         {
             _bloodTypeData = bloodTypeData;
         }
-        public string Generate()
+        public object Generate()
         {
             var random = new Random();
 
