@@ -2,7 +2,7 @@
 
 namespace GeradorDadosAPI.Services.Generators
 {
-    public class PasswordGenerator : IPasswordGenerator
+    public class PasswordGenerator : IGenerateStringNoParams
     {
         private readonly CharListsDataBase _charLists;
 
