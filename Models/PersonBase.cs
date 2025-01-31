@@ -23,8 +23,8 @@ namespace GeradorDadosAPI.Models
         public string? City { get; set; }
         public string State { get; set; }
         public string? Country { get; set; }
-        public float? Height { get; set; }
-        public float? Weight { get; set; }
+        public double? Height { get; set; }
+        public double? Weight { get; set; }
         public string? BloodType { get; set; }
 
         public virtual PersonBase GeneratePerson(CustomizableSelections selections)
