@@ -7,6 +7,9 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var apiKey = Environment.GetEnvironmentVariable("SEQ_API_KEY"); 
+builder.Configuration["Serilog:WriteTo:0:Args:apiKey"] = apiKey;
+
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
