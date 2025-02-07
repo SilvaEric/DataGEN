@@ -15,10 +15,16 @@ namespace GeradorDadosAPI.Services
         private readonly IGenerateNoParams _passwordGenerator, _bloodTypeGenerator, _heightGenerator, _weightGenerator;
         private readonly IPhoneNumberGenerator _phoneNumberGenerator;
 
-        public RegisterService(INameGenerator nameGenerator, IAgeGenerator ageGenerator, IGenderGenerator genderGenerator, 
-            IEmailGenerator emailGenerator,[FromKeyedServices("password")] IGenerateNoParams passwordGenerator, 
-            IPhoneNumberGenerator phoneNumberGenerator, [FromKeyedServices("bloodtype")] IGenerateNoParams bloodTypeGenerator,
-            [FromKeyedServices("height")] IGenerateNoParams heightgenerator, [FromKeyedServices("weight")] IGenerateNoParams weightgenerator)
+        public RegisterService(
+            INameGenerator nameGenerator, 
+            IAgeGenerator ageGenerator, 
+            IGenderGenerator genderGenerator,
+            IEmailGenerator emailGenerator,
+            IPhoneNumberGenerator phoneNumberGenerator,
+            [FromKeyedServices("password")] IGenerateNoParams passwordGenerator, 
+            [FromKeyedServices("bloodtype")] IGenerateNoParams bloodTypeGenerator,
+            [FromKeyedServices("height")] IGenerateNoParams heightgenerator, 
+            [FromKeyedServices("weight")] IGenerateNoParams weightgenerator )
         {
             _nameGenerator = nameGenerator;
             _ageGenerator = ageGenerator;
@@ -29,7 +35,7 @@ namespace GeradorDadosAPI.Services
             _bloodTypeGenerator = bloodTypeGenerator;
             _heightGenerator = heightgenerator;
             _weightGenerator = weightgenerator;
-        }   
+        }
 
         public void Register(PersonBase person, CustomizableSelections customizableSelections)
         {
@@ -106,7 +112,7 @@ namespace GeradorDadosAPI.Services
 
                         var random = new Random();
 
-                        if(customizableSelections.Region == ERegion.BR)
+                        if (customizableSelections.Region == ERegion.BR)
                         {
                             var listStatesBR = Enum.GetValues(typeof(EStatesBR)).Cast<EStatesBR>().ToList();
                             person.Phone = _phoneNumberGenerator.GenerateBRPhone(customizableSelections.Region, listStatesBR[random.Next(listStatesBR.Count)]);
@@ -130,6 +136,20 @@ namespace GeradorDadosAPI.Services
                         person.BloodType = Convert.ToString(_bloodTypeGenerator.Generate());
                         break;
                 }
+            }
+        }
+        public PersonBase GetPersonGenerator(ERegion region)
+        {
+            switch (region)
+            {
+                case ERegion.BR:
+                    return new BRPersonData(this);
+
+                case ERegion.US:
+                    return new USPersonData(this);
+
+                default:
+                    throw new NotImplementedException();
             }
         }
     }
