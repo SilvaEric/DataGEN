@@ -14,6 +14,7 @@ namespace GeradorDadosAPI.Models
 
         public CustomizableSelections(EStatesBR? statesBR, EStatesUS? statesUS, EGender? gender, int? age, ERegion region, List<string> selectedDatas, int quantity)
         {
+
             if (statesBR.HasValue)
                 StatesBR = statesBR.Value;
 

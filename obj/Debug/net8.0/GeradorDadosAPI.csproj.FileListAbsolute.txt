@@ -31,3 +31,15 @@ C:\Dev\GeradorDadosAPI\obj\Debug\net8.0\refint\GeradorDadosAPI.dll
 C:\Dev\GeradorDadosAPI\obj\Debug\net8.0\GeradorDadosAPI.pdb
 C:\Dev\GeradorDadosAPI\obj\Debug\net8.0\GeradorDadosAPI.genruntimeconfig.cache
 C:\Dev\GeradorDadosAPI\obj\Debug\net8.0\ref\GeradorDadosAPI.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Sinks.Async.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Dev\GeradorDadosAPI\bin\Debug\net8.0\Serilog.Sinks.Seq.dll

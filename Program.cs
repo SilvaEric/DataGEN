@@ -1,7 +1,9 @@
 using GeradorDadosAPI.ContextData;
+using GeradorDadosAPI.Middlewares;
 using GeradorDadosAPI.Services;
 using GeradorDadosAPI.Services.Generators;
 using GeradorDadosAPI.Services.Interfaces;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,8 +32,14 @@ builder.Services.AddKeyedScoped<IGenerateNoParams, BloodTypeGenerator>("bloodtyp
 builder.Services.AddKeyedScoped<IGenerateNoParams, HeightGenerator>("height");
 builder.Services.AddKeyedScoped<IGenerateNoParams, WeightGenerator>("weight");
 builder.Services.AddScoped<IPhoneNumberGenerator, PhoneNumberGenerator>();
+builder.Services.AddTransient<LoggerService>();
+
+builder.Host.UseSerilog((context, loggerConfiguration) => 
+loggerConfiguration.ReadFrom.Configuration(context.Configuration));
 
 var app = builder.Build();
+
+app.UseMiddleware<LoggingMiddleware>();
 
 app.UseSwagger();
 app.UseSwaggerUI();
