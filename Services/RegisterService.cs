@@ -3,6 +3,7 @@ using GeradorDadosAPI.Models;
 using GeradorDadosAPI.Services.Generators;
 using GeradorDadosAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace GeradorDadosAPI.Services
 {
@@ -135,6 +136,9 @@ namespace GeradorDadosAPI.Services
 
                         person.BloodType = Convert.ToString(_bloodTypeGenerator.Generate());
                         break;
+
+                    default:
+                        throw new ValidationException($"O dado passado {selection} não exite no contexto atual.");
                 }
             }
         }
@@ -149,7 +153,7 @@ namespace GeradorDadosAPI.Services
                     return new USPersonData(this);
 
                 default:
-                    throw new NotImplementedException();
+                    throw new NotImplementedException($"A região inserida {region} ainda não está diosponível!");
             }
         }
     }

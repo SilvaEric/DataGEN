@@ -1,7 +1,4 @@
 ﻿using GeradorDadosAPI.Enums;
-using GeradorDadosAPI.Services;
-using GeradorDadosAPI.Services.Generators;
-using System.Globalization;
 
 namespace GeradorDadosAPI.Models
 {
@@ -16,13 +13,7 @@ namespace GeradorDadosAPI.Models
         public string? Email { get; set; }
         public string? Password { get; set; }
         public string? Phone { get; set; }
-        public int? ZipCode { get; set; }
-        public string? Adress { get; set; }
-        public int? Number { get; set; }
-        public string? Neighborhood { get; set; }
-        public string? City { get; set; }
-        public string State { get; set; }
-        public string? Country { get; set; }
+        public Address? Address { get; set; }
         public double? Height { get; set; }
         public double? Weight { get; set; }
         public string? BloodType { get; set; }
