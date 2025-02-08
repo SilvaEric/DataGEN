@@ -34,9 +34,9 @@ namespace GeradorDadosAPI.Controllers
                 validationsErrors.Add("Para que a entrada de dados seja válida o parametro 'SelectedDatas' não pode estar vázio");
             }
 
-            if (customizableSelections.Quantity <= 0)
+            if (customizableSelections.Quantity <= 0 || customizableSelections.Quantity <200)
             {
-                validationsErrors.Add("Quando informado O parametro 'Quantity' deve ser > 0."); 
+                validationsErrors.Add("Quando informado O parametro 'Quantity' deve ser > 0 e < 200."); 
             }
 
             if(customizableSelections.Age.HasValue && customizableSelections.Age <= 0)

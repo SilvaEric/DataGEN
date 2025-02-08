@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Dev\\GeradorDadosAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933CA379-5E83-4D93-BF77-956D00E51FE8}|GeradorDadosAPI.csproj|c:\\dev\\geradordadosapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -181,7 +181,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -197,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RegisterService.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Services\\RegisterService.cs",
               "RelativeDocumentMoniker": "Services\\RegisterService.cs",
@@ -205,8 +205,7 @@
               "RelativeToolTip": "Services\\RegisterService.cs",
               "ViewState": "AQIAAHAAAAAAAAAAAAAQwDIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T17:11:22.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T17:11:22.564Z"
             },
             {
               "$type": "Document",
@@ -258,20 +257,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Dev\\GeradorDadosAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAACkAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T12:22:31.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PersonController.cs",
               "DocumentMoniker": "C:\\Dev\\GeradorDadosAPI\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "Controllers\\PersonController.cs",
@@ -279,8 +278,7 @@
               "RelativeToolTip": "Controllers\\PersonController.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAkwFAAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T20:02:12.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T20:02:12.223Z"
             },
             {
               "$type": "Document",
